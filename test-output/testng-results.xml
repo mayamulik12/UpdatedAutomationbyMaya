@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T18:51:16 IST" name="Default suite" finished-at="2026-02-17T18:51:39 IST" duration-ms="23633">
+  <suite started-at="2026-02-17T20:00:18 IST" name="Default suite" finished-at="2026-02-17T20:00:36 IST" duration-ms="17687">
     <groups>
     </groups>
-    <test started-at="2026-02-17T18:51:16 IST" name="Default test" finished-at="2026-02-17T18:51:39 IST" duration-ms="23633">
+    <test started-at="2026-02-17T20:00:18 IST" name="Default test" finished-at="2026-02-17T20:00:36 IST" duration-ms="17687">
       <class name="Webtest.Producttest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T18:51:16 IST" name="setup" finished-at="2026-02-17T18:51:26 IST" duration-ms="10296" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:18 IST" name="setup" finished-at="2026-02-17T20:00:27 IST" duration-ms="8735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductAddToCart()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T18:51:26 IST" name="verifyProductAddToCart" finished-at="2026-02-17T18:51:28 IST" duration-ms="2366" status="PASS">
+        <test-method signature="verifyProductAddToCart()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:27 IST" name="verifyProductAddToCart" finished-at="2026-02-17T20:00:28 IST" duration-ms="1737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T18:51:28 IST" name="tearDown" finished-at="2026-02-17T18:51:29 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:28 IST" name="tearDown" finished-at="2026-02-17T20:00:29 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T18:51:29 IST" name="setup" finished-at="2026-02-17T18:51:38 IST" duration-ms="9548" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:29 IST" name="setup" finished-at="2026-02-17T20:00:34 IST" duration-ms="5701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyShoppingCartitems()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T18:51:38 IST" name="verifyShoppingCartitems" finished-at="2026-02-17T18:51:39 IST" duration-ms="830" status="PASS">
+        <test-method signature="verifyShoppingCartitems()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:34 IST" name="verifyShoppingCartitems" finished-at="2026-02-17T20:00:35 IST" duration-ms="900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShoppingCartitems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T18:51:39 IST" name="tearDown" finished-at="2026-02-17T18:51:39 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:35 IST" name="tearDown" finished-at="2026-02-17T20:00:36 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

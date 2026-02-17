@@ -15,7 +15,7 @@ public class ProductSearch {
     WebDriver driver;
     WebDriverWait wait;
 
-    // Locators
+
     By searchBox = By.id("small-searchterms");
     By searchButton = By.cssSelector("input.search-box-button");
     By successNotification = By.cssSelector(".bar-notification.success");
@@ -32,7 +32,7 @@ public class ProductSearch {
 
     public void addToCart(String productName) {
     	
-        // Dynamic XPath using the text method discussed earlier
+    
         String dynamicXpath = "//a[text()='" + productName + "']/ancestor::div[@class='details']//input[@value='Add to cart']";
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXpath))).click();
     }

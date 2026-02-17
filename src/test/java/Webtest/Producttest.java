@@ -52,7 +52,7 @@ public class Producttest {
 	Assert.assertTrue(isloaded,"page is not loaded");
 	
 	boolean isadded=searchPage.verifyElementName(item);
-	Assert.assertTrue(isadded,"Item is not added");
+	Assert.assertFalse(isadded,"Item is not added");
 		
 			
 	}

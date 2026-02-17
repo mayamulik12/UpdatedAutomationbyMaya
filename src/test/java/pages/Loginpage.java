@@ -25,7 +25,7 @@ public class Loginpage {
 		this.driver = driver;
 	}
 
-	// Navigates to the login page URL.
+
 
 	public void navigateToLoginPage() {
 
@@ -33,14 +33,15 @@ public class Loginpage {
 	}
 
 	public void clickLogin() {
-		// Add the wait here, before the action
+	
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		driver.findElement(loginLink).click();
 	}
 
-	public void login(String email, String password) {
+	public void login(String email, String password) 
+	{
 		driver.findElement(emailInput).sendKeys(email);
 		driver.findElement(passwordInput).sendKeys(password);
 		driver.findElement(loginButton).click();

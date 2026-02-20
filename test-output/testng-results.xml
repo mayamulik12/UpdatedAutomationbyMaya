@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T20:00:18 IST" name="Default suite" finished-at="2026-02-17T20:00:36 IST" duration-ms="17687">
+  <suite started-at="2026-02-20T19:13:02 IST" name="Default suite" finished-at="2026-02-20T19:13:19 IST" duration-ms="17669">
     <groups>
     </groups>
-    <test started-at="2026-02-17T20:00:18 IST" name="Default test" finished-at="2026-02-17T20:00:36 IST" duration-ms="17687">
-      <class name="Webtest.Producttest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:18 IST" name="setup" finished-at="2026-02-17T20:00:27 IST" duration-ms="8735" status="PASS">
+    <test started-at="2026-02-20T19:13:02 IST" name="Default test" finished-at="2026-02-20T19:13:19 IST" duration-ms="17669">
+      <class name="Webtest.Logintest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Webtest.Logintest@53aad5d5]" started-at="2026-02-20T19:13:02 IST" name="setUp" finished-at="2026-02-20T19:13:05 IST" duration-ms="2790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductAddToCart()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:27 IST" name="verifyProductAddToCart" finished-at="2026-02-17T20:00:28 IST" duration-ms="1737" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:Webtest.Logintest@53aad5d5]" started-at="2026-02-20T19:13:05 IST" name="testSuccessfulLogin" description="Verify successful login with valid credentials" finished-at="2026-02-20T19:13:11 IST" duration-ms="6662" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProductAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:28 IST" name="tearDown" finished-at="2026-02-17T20:00:29 IST" duration-ms="274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:29 IST" name="setup" finished-at="2026-02-17T20:00:34 IST" duration-ms="5701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyShoppingCartitems()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:34 IST" name="verifyShoppingCartitems" finished-at="2026-02-17T20:00:35 IST" duration-ms="900" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyShoppingCartitems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Producttest@f381794]" started-at="2026-02-17T20:00:35 IST" name="tearDown" finished-at="2026-02-17T20:00:36 IST" duration-ms="269" status="PASS">
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Logintest@53aad5d5]" started-at="2026-02-20T19:13:11 IST" name="tearDown" finished-at="2026-02-20T19:13:11 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Webtest.Producttest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Webtest.Logintest@53aad5d5]" started-at="2026-02-20T19:13:11 IST" name="setUp" finished-at="2026-02-20T19:13:13 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFailedLogin()[pri:2, instance:Webtest.Logintest@53aad5d5]" started-at="2026-02-20T19:13:13 IST" name="testFailedLogin" description="Verify failed login with invalid credentials" finished-at="2026-02-20T19:13:19 IST" duration-ms="6510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Webtest.Logintest@53aad5d5]" started-at="2026-02-20T19:13:19 IST" name="tearDown" finished-at="2026-02-20T19:13:19 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Webtest.Logintest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

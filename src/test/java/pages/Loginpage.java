@@ -31,7 +31,7 @@ public class Loginpage {
 
 		driver.get("https://demowebshop.tricentis.com");
 	}
-
+	
 	public void clickLogin() {
 	
 

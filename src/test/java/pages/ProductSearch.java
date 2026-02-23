@@ -12,8 +12,6 @@ import java.util.List;
 public class ProductSearch {
     WebDriver driver;
     WebDriverWait wait;
-
-
     By searchBox = By.id("small-searchterms");
     By searchButton = By.cssSelector("input.search-box-button");
     By successNotification = By.cssSelector(".bar-notification.success");

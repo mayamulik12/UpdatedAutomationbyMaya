@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pages.Loginpage;
@@ -31,6 +32,7 @@ public class Producttest {
     }
 
     @Test
+    @DataProvider(name = "testData", parallel = true)
     public void verifyProductAddToCart()
     {
         //String item = "14.1-inch Laptop";
@@ -46,6 +48,7 @@ public class Producttest {
         Assert.assertTrue(newcartCount==(cartCount+1),"cartcountt is not correct");
     }
     @Test
+    @DataProvider(name = "testData", parallel = true)
 	public void  verifyShoppingCartitems()
 	{
 	boolean isloaded=searchPage.clickoncartandloadedElement();

@@ -22,7 +22,6 @@ public class Logintest {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-
 		loginPage = new Loginpage(driver);
 	}
 

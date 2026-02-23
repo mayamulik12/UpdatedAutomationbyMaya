@@ -1,8 +1,6 @@
 package utility;
-
 import org.apache.poi.xssf.usermodel.*;
 import java.io.FileInputStream;
-
 public class ExcelUtils {
     public static Object[][] getExcelData(String filePath, String sheetName) throws Exception {
         FileInputStream fis = new FileInputStream(filePath);

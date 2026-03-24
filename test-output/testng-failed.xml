@@ -6,9 +6,9 @@
       <class name="Webtest.Logintest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyShoppingCartitems"/>
           <include name="setUp"/>
-          <include name="testFailedLogin"/>
-          <include name="testSuccessfulLogin"/>
+          <include name="verifyProductAddToCart"/>
         </methods>
       </class> <!-- Webtest.Logintest -->
     </classes>
